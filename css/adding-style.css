@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(255, 241, 241);
+    width: 350px;
+    height: 300px;
+    position:  relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+.header {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: transparent
+}
+  
+.divHeader {
+    padding: 0px;
+    text-align: center;
+    color: rgba(11, 9, 15, 0.911);
+    background-color: transparent;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 40px;
+}
+
+.label{
+    font-size: 15px;
+    color: rgba(13, 11, 20, 0.877);
+}
+
+.mainDiv {
+    background-color: transparent;
+    margin: 10px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+    width: 100%;
+}

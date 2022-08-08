@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/common-style.css">
+	<link rel="stylesheet" href="../css/main-style.css">
+	<title>Credentials Handler</title>
+	<style  type="text/css">
+
+	</style>
+</head>
+<body>
+	<div class="divHeader">
+		<h1 class="header">Verifiable Credentials Handler</h1>
+	</div>
+
+	<!-- Navigation Bar -->
+	<ul class="topnav">
+        <li><a href="./popup.html">Home</a></li>
+		<li><a href="./credentials.html">Credentials</a></li>
+		<li><a class="active">Issuers</a></li>
+	</ul>
+
+	<!-- <h2>Saved Issuers:</h2> -->
+	<div id = "Saved_Issuers_div" class="divScroll">
+		<!-- <p id="issList_initial_msg_p">There are no saved Issuers</p> -->
+		<ul id = "Issuers_list_ul"></ul>
+	</div>
+    
+    <!-- <div class="divBoarder"></div> -->
+	<div class="botomBar">
+		<div class="divButton">
+			<button id="addIssuer_btn" class="button" type="button">Add Issuer</button>
+			<button id="getVC_btn" class="button" type="button">Get Credential</button>
+		</div>
+	</div>
+
+    <script type="text/javascript" src = "../scripts/issuers-script.js"></script>
+    <script type="text/javascript" src="../scripts/popup-script.js"></script>
+</body>
+</html>
